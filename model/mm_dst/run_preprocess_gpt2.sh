@@ -14,7 +14,6 @@ python3 -m gpt2_dst.scripts.preprocess_input \
     --output_path_predict="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_train_predict.txt \
     --output_path_target="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_train_target.txt \
     --len_context=2 \
-    --no_belief_states \
     --use_multimodal_contexts=1 \
     --output_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json
 
@@ -25,9 +24,6 @@ python3 -m gpt2_dst.scripts.preprocess_input \
     --output_path_target="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_dev_target.txt \
     --len_context=2 \
     --use_multimodal_contexts=1 \
-    --input_path_retrieval="${PATH_DATA_DIR}"/simmc2_dials_dstc10_dev_retrieval_candidates.json \
-    --output_path_retrieval="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_dev_retrieval.txt \
-    --no_belief_states \
     --input_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json \
     --output_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json \
 
@@ -37,9 +33,17 @@ python3 -m gpt2_dst.scripts.preprocess_input \
     --output_path_predict="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_devtest_predict.txt \
     --output_path_target="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_devtest_target.txt \
     --len_context=2 \
-    --input_path_retrieval="${PATH_DATA_DIR}"/simmc2_dials_dstc10_devtest_retrieval_candidates.json \
-    --output_path_retrieval="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_devtest_retrieval.txt \
-    --no_belief_states \
     --use_multimodal_contexts=1 \
     --input_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json \
     --output_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json \
+
+# Test-std test
+python3 -m gpt2_dst.scripts.preprocess_input \
+    --input_path_json="${PATH_DATA_DIR}"/simmc2_dials_dstc10_teststd_public.json \
+    --output_path_predict="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_teststd_predict.txt \
+    --output_path_target="${PATH_DIR}"/gpt2_dst/data/simmc2_dials_dstc10_teststd_target.txt \
+    --len_context=2 \
+    --use_multimodal_contexts=1 \
+    --input_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json \
+    --output_path_special_tokens="${PATH_DIR}"/gpt2_dst/data/simmc2_special_tokens.json \
+    --no_target
