@@ -131,7 +131,7 @@ if __name__ == "__main__":
         f"{args.output_path}/dstc10-simmc-{args.domain}-pred-subtask-4-retrieval.json", 'w'
     )
     predicted_processed_generation = open(
-        f"{args.output_path}/dstc10-simmc-{args.domain}-pred-subtask-4-generateion.json", 'w'
+        f"{args.output_path}/dstc10-simmc-{args.domain}-pred-subtask-4-generation.json", 'w'
     )
     dials_path = args.dials_path
     retrieval_candidate = args.retrieval_candidate_path
