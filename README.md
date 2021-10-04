@@ -43,11 +43,11 @@ Each model is trained different with **model hyperparameters**.
 
 **MODEL1**  
 - output dir : `model/mm_dst/gpt2_dst/results/devtest/model/`
-- download [link](https://drive.google.com/drive/folders/1-aEUovt0Rj8mUvPAepawCb2b5xzXyH1-?usp=sharing)
+- [download link](https://drive.google.com/drive/folders/1-aEUovt0Rj8mUvPAepawCb2b5xzXyH1-?usp=sharing)
 
 **MODEL2** 
 - output dir : `model/mm_dst/gpt2_dst/results/devtest/model_2/`  
-- download [link](https://drive.google.com/drive/folders/1ukt22EeJtv0T0z2CbZBGPamkYglBXZ2Q?usp=sharing)
+- [download link](https://drive.google.com/drive/folders/1ukt22EeJtv0T0z2CbZBGPamkYglBXZ2Q?usp=sharing)
 
 **Subtask #2: Multimodal Coreference Resolution**
 
