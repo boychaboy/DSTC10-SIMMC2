@@ -1,6 +1,7 @@
 # The Second Situated Interactive MultiModal Conversations (SIMMC 2.0) Challenge 2021
 
-Codes submitted for SIMMC 2.0 challenge (https://github.com/facebookresearch/simmc2), Track 3 of DSTC 10 (https://dstc10.dstc.community)
+Codes submitted for SIMMC 2.0 challenge (https://github.com/facebookresearch/simmc2),  
+Track 3 of DSTC 10 (https://dstc10.dstc.community)
 
 ## Brief summary
 ### Multi-task model with Finetuning End-to-End GPT-2
