@@ -87,3 +87,6 @@ We submit 2 different model predictions for teststd
 `MODEL1` output dir : `model/mm_dst/gpt2_dst/results/teststd/model/`  
 `MODEL2` output dir : `model/mm_dst/gpt2_dst/results/teststd/model_2/`  
 
+## License
+
+SIMMC 2.0 is released under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), see [LICENSE](LICENSE) for details.
