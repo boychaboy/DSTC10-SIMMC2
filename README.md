@@ -37,8 +37,10 @@ Evaluation reports are saved in the `/mm_dst/results` folder as JSON files.
 
 
 ## Devtest Results
-We submit 2 different model predictions.  
-Each model is trained different with **model hyperparameters**.  
+We submit 2 different model predictions. Each model is trained with different hyperparameters and generated with different beam size. 
+**MODEL1** is generated with beam size of 2
+**MODEL2** is generated with beam size of 3
+
 
 **MODEL1**  
 - output dir : `model/mm_dst/gpt2_dst/results/devtest/model/`
