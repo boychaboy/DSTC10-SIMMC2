@@ -311,7 +311,6 @@ command line""",
                 )
             encoded_prompt = encoded_prompt.to(args.device)
 
-            ipdb.set_trace(context=10)
             output_sequences = model.generate(
                 input_ids=encoded_prompt,
                 max_length=args.length + len(encoded_prompt[0]),
